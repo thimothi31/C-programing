@@ -2,7 +2,7 @@
 int main()
 {
 int a,b,c,d,e,z,s=0;
-printf("enter the value of digit z\n");
+printf("enter the value of five digit:\n");
 scanf("%d",&z);
 a=z%10;
 s=s+a;
@@ -19,5 +19,5 @@ z=z/10;
 e=z%10;
 s=s+e;
 z=z/10;
-printf("sum of the numbers=%d\n",s);
+printf("sum of your numbers=%d\n",s);
 }
